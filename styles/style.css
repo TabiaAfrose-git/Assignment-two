@@ -7,14 +7,21 @@
     padding: 0;
 }
 .container{
-    margin: 0 135px;
+    margin: 0 5%;
     background: #FFF;
+}
+.description{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 /* .............................start_main_style........................................ */
 
 /* start nav style */
 .nav{
-    margin: 52px 0;
+    margin: 3.25em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,17 +33,147 @@
 
 }
 .nav-img{
-    width: 48px;
+    width: 3em;
+    margin-right: 0.625em;
 
 }
 .nav-header{
     color: #131318;
     font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
+    font-size: 2.25em;
     font-weight: 800;
-    line-height: normal;
 }
-.nav-item-container{}
+.nav-header span{
+    color: #FF5400;
+}
+
+.nav-item-container>a{
+    color: #424247;
+    font-family: Mulish;
+    font-size: 1.125em;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 1.875em;
+}
+.nav-item-container>a:hover{
+    color: #FF5400;
+}
+.for-mobail{
+    display: none;
+}
+/* End nav Style */
+
+/* Start Section-1 Style */
+
+.section-1{
+    width: 73.125em;
+    height: 31.25em;
+    margin: 0 4%;
+    background-image:url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.section-1-header{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4em;
+    font-weight: 800;
+    text-align: center;
+    padding: 106px 287px  20px 106px;
+}
+.section-1-description{
+    width: 41.25em;
+    text-align: center;
+    margin: 20px 247px;
+}
+.button-container{
+    display: inline-flex;
+    margin: 0px 185px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+.btn{
+    display: inline-flex;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.btn-red{
+    display: inline-flex;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 5px;
+
+}
+.btn-text{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* End Section-1 Style */
+/* .............................Responsive for mobile.................................. */
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 0 5%;
+    }
+    .nav-item-container{
+        display: none;
+    }
+    .for-mobail{
+        display: block;
+        justify-items: center;
+        align-items: center;
+    }
+    .section-1{
+        width: 90%;
+        height: 483px;
+        margin: 0 5%;
+        padding: 0;
+    }
+    .section-1-header{
+        font-size: 1.375em;
+        font-weight: 800;
+        padding: 1em;
+    }
+    .section-1-description{
+        width: 19em;
+        text-align: center;
+        font-size: 0.875em;
+        font-weight: 400;
+        margin: 1em 8em;
+    }
+
+    .button-container{
+       flex-direction: column;
+        padding: 1em;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        padding: 1em;
+        margin: 1em 9em;
+    }
+
+
+
+
+
+}
+
 
 

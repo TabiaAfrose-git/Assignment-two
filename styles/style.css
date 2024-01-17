@@ -68,7 +68,7 @@
     border: 2px ;
 }
 .nav-item-container>a{
-    text-decoration: none;
+    text-decoration:none;
     margin-right: 3em;
     color:  #424247;
     text-align: center;
@@ -78,7 +78,7 @@
 }
 .nav-item-container>a:hover{
     color: #FF5400;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 .for-mobail{
@@ -479,7 +479,7 @@
 }
 .copy-right{
     width: 20%;
-    margin: 20px 45%;
+    margin: 20px 43%;
 }
 
 

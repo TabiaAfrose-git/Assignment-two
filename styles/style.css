@@ -70,6 +70,11 @@
 .nav-item-container>a{
     text-decoration: none;
     margin-right: 3em;
+    color:  #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 .for-mobail{
     display: none;
@@ -334,7 +339,7 @@
 .section-6{
     width: 100%;
     height: 430px;
-    margin: 6em auto;
+    margin: 20px auto;
     border: 2px;
     display: flex;
 }
@@ -590,7 +595,7 @@
     .section-6-img{
         width: 100%;
         height: 300px;
-        margin: 5px auto;
+        margin: 0 auto;
     }
     .section-6-text-part{
         width: 100%;
@@ -610,6 +615,7 @@
     .form{
         width: 90%;
         height: auto;
+        margin: 10px;
     }
     .footer{
         width: 100%;
